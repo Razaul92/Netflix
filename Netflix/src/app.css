@@ -1,0 +1,30 @@
+.container {
+  width: 30rem;
+  border: 1px solid gray;
+  position: relative;
+  left: 20rem;
+  text-align: center;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 4rem 2rem 4rem;
+  padding: 0 3rem 0 3rem;
+}
+
+.quantity__minus {
+  flex: 1;
+  border: 1px solid gray;
+  font-size: 2rem;
+}
+
+.quantity__input {
+  flex: 1;
+}
+
+.quantity__plus {
+  flex: 1;
+  border: 1px solid gray;
+  font-size: 2rem;
+}
